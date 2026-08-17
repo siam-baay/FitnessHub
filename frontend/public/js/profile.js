@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', async () => {
   if (!getToken()) {
-    location.href = '/login.html';
+    location.href = 'login.html';
     return;
   }
 
