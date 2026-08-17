@@ -10,7 +10,7 @@
   --red2:#a80f16;
   --cream:#f7f7f7;
   --muted:#a7a7a7;
-  --line:rgba(255,255,255,.12);
+  --line:rgba(148, 12, 30, 0.042);
   --success:#b7e6c5;
   --shadow:0 24px 70px rgba(0,0,0,.55);
 }
@@ -45,7 +45,7 @@ a{color:inherit;text-decoration:none}
   box-shadow:0 0 28px rgba(240,74,58,.3);
   font-weight:800;
 }
-.brand-name{font-family:Manrope;font-weight:800;letter-spacing:-.5px}
+.brand-name{font-family:Inter;font-weight:800;letter-spacing:-.5px}
 .nav-link{color:#d6d6d6!important;font-size:.92rem}
 .nav-link:hover,.nav-link.active{color:#fff!important}
 .btn-theme{
@@ -262,7 +262,7 @@ textarea.form-control::placeholder {
 
 /* Membership action */
 .membership-panel {
-  border: 1px solid rgba(227,27,35,.42);
+  border: 1px solid rgba(217, 202, 203, 0.42);
   border-radius: 16px;
   padding: 18px;
   background: linear-gradient(145deg, rgba(227,27,35,.10), rgba(0,0,0,.28));
