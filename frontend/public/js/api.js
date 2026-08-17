@@ -1,4 +1,7 @@
-const API = '/api';
+// Base API URL configuration for local development vs production hosting
+const API = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1'
+  ? 'http://localhost:5000/api'
+  : 'https://your-backend-url.onrender.com/api'; // Replace with your live backend URL when deployed
 
 function getToken(){ return localStorage.getItem('fh_token'); }
 function getUser(){ try { return JSON.parse(localStorage.getItem('fh_user') || 'null'); } catch { return null; } }
@@ -26,5 +29,5 @@ function saveAuth(data){
 function logout(){
   localStorage.removeItem('fh_token');
   localStorage.removeItem('fh_user');
-  location.href='/';
+  location.href='index.html';
 }
