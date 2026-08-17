@@ -1,0 +1,197 @@
+{
+  "members": [
+    {
+      "id": 2,
+      "name": "Farzin",
+      "phone": "01629449858",
+      "email": "farzin@gmail.com",
+      "plan_id": 2,
+      "join_date": "2026-08-16",
+      "expiry_date": "2026-11-13",
+      "status": "active"
+    },
+    {
+      "id": 3,
+      "name": "Sami",
+      "phone": "0198765432",
+      "email": "sami@gmail.com",
+      "plan_id": 3,
+      "join_date": "2026-08-16",
+      "expiry_date": "2026-09-16",
+      "status": "active"
+    },
+    {
+      "id": 4,
+      "name": "Nurul Alam",
+      "phone": "01341987858",
+      "email": "nurul@gmail.com",
+      "plan_id": 1,
+      "join_date": "2026-08-16",
+      "expiry_date": "2026-09-14",
+      "status": "active"
+    },
+    {
+      "id": 5,
+      "name": "Sablaim Sami",
+      "phone": "01317933897",
+      "email": "sablaim@gmail.com",
+      "plan_id": 1,
+      "join_date": "2026-08-17",
+      "expiry_date": "2026-09-15",
+      "status": "active"
+    },
+    {
+      "id": 6,
+      "name": "Pranto Shaha",
+      "phone": "0198765432",
+      "email": "pranto@gmail.com",
+      "plan_id": 3,
+      "join_date": "2026-08-17",
+      "expiry_date": "2027-08-16",
+      "status": "active"
+    }
+  ],
+  "plans": [
+    {
+      "id": 1,
+      "plan_name": "Essential",
+      "price": 1500,
+      "duration_days": 30
+    },
+    {
+      "id": 2,
+      "plan_name": "Performance",
+      "price": 3900,
+      "duration_days": 90
+    },
+    {
+      "id": 3,
+      "plan_name": "Elite",
+      "price": 12000,
+      "duration_days": 365
+    },
+    {
+      "id": 4,
+      "plan_name": "Basic",
+      "price": 1000,
+      "duration_days": 30
+    }
+  ],
+  "attendances": [
+    {
+      "id": 2,
+      "member_id": 2,
+      "check_in_time": "03:17",
+      "date": "2026-08-16"
+    },
+    {
+      "id": 3,
+      "member_id": 4,
+      "check_in_time": "03:17",
+      "date": "2026-08-16"
+    },
+    {
+      "id": 4,
+      "member_id": 3,
+      "check_in_time": "03:18",
+      "date": "2026-08-16"
+    },
+    {
+      "id": 5,
+      "member_id": 5,
+      "check_in_time": "11:47",
+      "date": "2026-08-17"
+    },
+    {
+      "id": 6,
+      "member_id": 6,
+      "check_in_time": "12:11",
+      "date": "2026-08-17"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "FitnessHub Admin",
+      "email": "admin@fitnesshub.local",
+      "role": "admin",
+      "passwordHash": "$2a$10$6o7lIznQzxUp8gG3G3A1NutZmtHDOXtNMPpYj1lC5CeXBt2TPpPZ2"
+    },
+    {
+      "id": 2,
+      "name": "Front Desk",
+      "email": "receptionist@fitnesshub.local",
+      "password": "reception123",
+      "role": "receptionist"
+    },
+    {
+      "id": 3,
+      "name": "Farzin",
+      "email": "farzin@gmail.com",
+      "passwordHash": "$2a$10$qHGh17ngx2o7x7bhRXiuZ.HLeoe9F6tQOdMXjOyDHR5qzgpJ/o/um",
+      "role": "member"
+    },
+    {
+      "id": 4,
+      "name": "Nurul Alam",
+      "email": "nurul@gmail.com",
+      "passwordHash": "$2a$10$259L/.JAfDzTkm5Bny3DbuhhYKBvJ15laQbgIOVqFAWoZc3yiPH.e",
+      "role": "member"
+    },
+    {
+      "id": 5,
+      "name": "Sablaim Sami",
+      "email": "sablaim@gmail.com",
+      "passwordHash": "$2a$10$p9yT/1B9abOm5K749dWMAOuavS//.yEurD8ca9bV3x/U8vvhlq6dC",
+      "role": "member"
+    },
+    {
+      "id": 6,
+      "name": "Pranto Shaha",
+      "email": "pranto@gmail.com",
+      "passwordHash": "$2a$10$aXRtcJHdbJGEkpS7za9HkuFDq5zfDL4j/s6T3U339pboTbQF6JaKO",
+      "role": "member"
+    }
+  ],
+  "classes": [],
+  "bookings": [
+    {
+      "id": 1,
+      "userId": 3,
+      "classId": 1,
+      "status": "Confirmed"
+    },
+    {
+      "id": 2,
+      "userId": 4,
+      "classId": 1,
+      "status": "Confirmed"
+    },
+    {
+      "id": 3,
+      "userId": 4,
+      "classId": 4,
+      "status": "Confirmed"
+    },
+    {
+      "id": 4,
+      "userId": 5,
+      "classId": 3,
+      "status": "Confirmed"
+    },
+    {
+      "id": 5,
+      "userId": 5,
+      "classId": 5,
+      "status": "Confirmed"
+    },
+    {
+      "id": 6,
+      "userId": 6,
+      "classId": 1,
+      "status": "Confirmed"
+    }
+  ],
+  "payments": [],
+  "progress": []
+}
